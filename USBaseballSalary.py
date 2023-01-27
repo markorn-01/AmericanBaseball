@@ -25,6 +25,6 @@ try:
         temp['Year'] = pf.index
         temp['Pitching'] = pf.values
         temp['Fielding'] = ff.values
-        temp.to_csv("USBaseball.csv", index=False)
+        temp.to_csv("USBaseballSalary.csv", index=False)
 except Error as e:
     print("Error while connecting to MySQL", e)
